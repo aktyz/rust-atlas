@@ -2,17 +2,17 @@
 
 > The single best free online resource to start learning Rust is **The Rust Programming Language** (commonly called **"the Book"**). It is the official, comprehensive, and beginner-friendly guide maintained by the Rust team, and it's the resource most Rust developers recommend as the starting point.
 
-**Official Book:** https://doc.rust-lang.org/book/
+[**Official Book**](https://doc.rust-lang.org/book/)
 
 ---
 
 # Top Free Rust Resources
 
-## 1. 📘 The Rust Programming Language ("the Book")
+## 1. 📘 The Rust Programming Language ("the Book") by Cognitive Engineering Lab at Brown University
 
 **Description**
 
-The official Rust tutorial covering everything from the language fundamentals to advanced concepts including:
+The official Rust tutorial covering everything from the language fundamentals to advanced concepts including with interactive quizes and [visualizations](https://cel.cs.brown.edu/aquascope/).
 
 - Variables and data types
 - Functions
@@ -31,9 +31,7 @@ The official Rust tutorial covering everything from the language fundamentals to
 
 Anyone with prior programming experience who wants a solid foundation in Rust.
 
-**Link**
-
-https://doc.rust-lang.org/book/
+[**Link**](https://rust-book.cs.brown.edu/)
 
 ---
 
