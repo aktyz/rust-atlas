@@ -73,8 +73,8 @@ Through this repository, I aim to develop a deep understanding of:
 
 ### Fundamentals
 
-- [ ] Rust installation and tooling
-- [ ] Cargo ecosystem
+- [x] Rust installation and tooling
+- [x] Cargo ecosystem
 - [ ] Variables and data types
 - [ ] Functions
 - [ ] Structs and enums

@@ -1,0 +1,7 @@
+[package]                      # your project package configuration
+name = "hello_cargo"               # project name
+version = "0.1.0"                  # project version
+edition = "2024"                   # Rust edition to use on this project
+
+[dependencies]                 # here will go any project dependencies
+                               # in Rust, packages of code are referred as CRATES
