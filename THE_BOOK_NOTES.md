@@ -82,3 +82,8 @@ let mut bananas = 42; // adding `mut` allows to modify the variable
 
 > `String::new`, a function that returns a new instance of a `String`. `String` is a string type provided by the standard library that is a growable, UTF-8 encoded bit of text.
 
+[Crates.io](https://crates.io/) is where people in the Rust ecosystem post their open source Rust projects for others to use.
+
+```bash
+cardo doc --open # generates documentation for your Cargo project
+```
