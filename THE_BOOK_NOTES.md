@@ -6,7 +6,7 @@ Usefull bash commands for handling Rust tooling:
 ```bash
 rustc --version
 rustup update
-rustup doc #opening the Book in your browser
+rustup doc # opening the Book in your browser
 ```
 
 ### 1.2. Hello, World!
@@ -69,4 +69,16 @@ cargo build --release # creates an executable file: `target/release/hello_cargo`
 > The optimizations make your Rust code run faster, but turning them on lengthens the time it takes for your program to compile. If you’re benchmarking your code’s running time, be sure to run `cargo build --release` and benchmark with the executable in target/release.
 
 ## Chapter 2 - Guessing Game
+
+> The **PRELUDE** is the list of things that Rust automatically imports into every Rust program. It’s kept as small as possible, and is focused on things, particularly traits, which are used in almost every single Rust program.
+
+In Rust, variables and references are immutable by default, meaning once we give the variable a value, the value won’t change:
+
+```rs
+let apples = 5; // treated as a constant by the program
+
+let mut bananas = 42; // adding `mut` allows to modify the variable
+```
+
+> `String::new`, a function that returns a new instance of a `String`. `String` is a string type provided by the standard library that is a growable, UTF-8 encoded bit of text.
 
