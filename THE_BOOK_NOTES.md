@@ -42,7 +42,7 @@ cargo new --vcs=git <project_name>
 ```
 - if you don't have git - `cargo new <project_name>` WILL initialize Git and `.gitignore` for you
 
-> In Rust, packages of code are referred as CRATES
+> In Rust, packages of code are referred as **CRATES**
 
 Building and Running a Cargo Project:
 ```bash
@@ -67,4 +67,6 @@ cargo build --release # creates an executable file: `target/release/hello_cargo`
 ```
 
 > The optimizations make your Rust code run faster, but turning them on lengthens the time it takes for your program to compile. If you’re benchmarking your code’s running time, be sure to run `cargo build --release` and benchmark with the executable in target/release.
+
+## Chapter 2 - Guessing Game
 
