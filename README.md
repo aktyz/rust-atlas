@@ -1,5 +1,5 @@
 # 🗺️ Rust Atlas
-
+This line has been added by Faiza (faikha)
 > A growing map of Rust concepts, experiments, and projects explored along the journey of learning Rust.
 
 ## About
