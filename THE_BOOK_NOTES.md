@@ -85,5 +85,9 @@ let mut bananas = 42; // adding `mut` allows to modify the variable
 [Crates.io](https://crates.io/) is where people in the Rust ecosystem post their open source Rust projects for others to use.
 
 ```bash
-cardo doc --open # generates documentation for your Cargo project
+cargo doc --open # generates documentation for your Cargo project
 ```
+
+> A `match` expression is made up of `arms`. An `arm` consists of a **PATTERN** to match against, and the code that should be executed if the value given to `match` fits that `arm`'s pattern. Rust takes the value given to `match` and looks through each `arm`'s pattern in turn.
+
+> **SHADOWING** lets us reuse the `guess` variable name rather than forcing us to create two unique variables such as `guess_str` and `guess`.
